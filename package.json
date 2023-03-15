@@ -1,0 +1,14 @@
+{
+	"name": "portofolio-tailwindcss",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"tailwind": "npx tailwind -i ./src/input.css -o ./dist/output.css --watch"
+	},
+	"author": "salmandma",
+	"license": "ISC",
+	"devDependencies": {
+		"tailwindcss": "^3.2.7"
+	}
+}
